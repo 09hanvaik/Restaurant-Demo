@@ -18,7 +18,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 text-lg font-semibold md:text-xl">
-          <img src="/placeholder.svg?height=32&width=32" alt="Restaurant Logo" className="h-8 w-8" />
+          <img src="https://images.unsplash.com/photo-1602934445884-da0fa1c9d3b3?q=80&w=1258&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Restaurant Logo" className="h-8 w-8" />
           <span>FastBites</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">

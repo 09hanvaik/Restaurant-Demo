@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Phone, Mail, MapPin, Clock } from "lucide-react"
+import Image from "next/image"
 
 export default function ContactPage() {
   return (
@@ -81,7 +82,7 @@ export default function ContactPage() {
         {/* Map Placeholder */}
         <div className="bg-card p-4 rounded-lg shadow-sm aspect-video overflow-hidden">
           <Image
-            src="/placeholder.svg?height=400&width=600"
+            src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=600&h=400&fit=crop"
             alt="Restaurant Location Map"
             width={600}
             height={400}

@@ -28,7 +28,7 @@ export default function FoodItemCard({ item }: FoodItemCardProps) {
         <CardTitle className="text-xl font-bold">{item.name}</CardTitle>
         <p className="text-muted-foreground text-sm mt-1 line-clamp-2">{item.description}</p>
         <div className="flex items-center justify-between mt-3">
-          <span className="text-2xl font-semibold text-primary">${item.price.toFixed(2)}</span>
+          <span className="text-2xl font-semibold text-primary">£{item.price.toFixed(2)}</span>
         </div>
       </CardContent>
       <CardFooter className="p-4 pt-0">
